@@ -13,3 +13,17 @@ input[type="radio"] {
   cursor: pointer;
   transition: color 200ms;
 }
+
+.event-details-container {
+  height: 100%;
+  width: 100%;
+  scrollbar-width: thin;
+  overflow-y: auto;
+  padding-bottom: 1em;
+}
+
+.event-details-title {
+  font-weight: 700;
+  font-size: var(--font-size-md);
+  padding: 10px 13px 10px 13px;
+}
